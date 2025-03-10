@@ -97,8 +97,6 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# this is a test
-
 # exa
 alias ls='eza -a --group-directories-first --icons'
 alias ll='eza -l -a -h --icons -F -H --group-directories-first --git'
