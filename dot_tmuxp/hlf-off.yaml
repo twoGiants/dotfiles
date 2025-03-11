@@ -1,0 +1,32 @@
+session_name: hlf-off
+start_directory: ~/Dev/active/hyperledger-fabric/
+windows:
+  - window_name: off-go
+    start_directory: fabric-samples/off_chain_data/application-go
+    layout: main-horizontal
+    options:
+      main-pane-height: 50%
+    panes:
+      - shell_command:
+          - 
+        focus: true 
+      - cd ../application-typescript
+  - window_name: test-network
+    layout: main-horizontal
+    options:
+      main-pane-height: 50%
+    start_directory: fabric-samples/test-network
+    panes:
+      - shell_command:
+          - tmux set-hook -g session-closed 'run-shell "if [ \"#{hook_session_name}\" = \"hlf-off\" ]; then ~/Dev/active/hyperledger-fabric/fabric-samples/test-network/./network.sh down; fi"'
+          - ./network.sh up createChannel -c mychannel -ca
+          - ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go/ -ccl go
+        focus: true
+      - until docker ps | grep 'peer0.org1.example.com'; do sleep 3; done && docker logs -f peer0.org1.example.com
+      - until docker ps | grep 'peer0.org2.example.com'; do sleep 3; done && docker logs -f peer0.org2.example.com
+    hooks:
+      session_closed: "run-shell ./network.sh down"
+  - window_name: fabric-samples-root
+    start_directory: fabric-samples
+    panes:
+      -  codium .vscode/fabric-samples.code-workspace

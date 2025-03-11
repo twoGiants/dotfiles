@@ -1,0 +1,13 @@
+session_name: dsa 
+start_directory: ~/Dev/active/practice-monorepo/dsa-practice
+windows:
+  - window_name: dsa-root
+    layout: main-horizontal
+    options:
+      main-pane-height: 50%
+    panes:
+      - shell_command:
+          - gow test retention/*_test.go
+        focus: true
+      - glol
+      - codium -n .

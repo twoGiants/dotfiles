@@ -1,0 +1,24 @@
+session_name: fabric-pd
+start_directory: ~/Dev/active/hyperledger-fabric/
+windows:
+  - window_name: private-data-go
+    start_directory: fabric-samples/asset-transfer-private-data/application-gateway-go
+    panes:
+      -
+  - window_name: test-network
+    start_directory: fabric-samples/test-network
+    panes:
+      - ./network.sh up createChannel -c mychannel -ca && ./network.sh deployCC -ccn private -ccp ../asset-transfer-private-data/chaincode-go  -ccl go -ccep "OR('Org1MSP.peer','Org2MSP.peer')"  -cccg '../asset-transfer-private-data/chaincode-go/collections_config.json' -ccep "OR('Org1MSP.peer','Org2MSP.peer')"
+      - 
+  - window_name: fabric-samples-root
+    start_directory: fabric-samples
+    panes:
+      -  codium .vscode/fabric-samples.code-workspace
+  - window_name: fabric-docs
+    start_directory: fabric
+    panes:
+      -
+  - window_name: old-fabric-samples
+    start_directory: old_fabric-samples
+    panes:
+      -

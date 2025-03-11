@@ -1,0 +1,13 @@
+session_name: go-playground
+start_directory: ~/Dev/active/practice-monorepo/go-playground
+windows:
+  - window_name: project-root
+    layout: main-horizontal
+    options:
+      main-pane-height: 50%
+    panes:
+      - shell_command:
+          - go run .
+        focus: true
+      - glol
+      - codium -n .

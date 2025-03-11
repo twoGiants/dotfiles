@@ -1,0 +1,23 @@
+session_name: pet
+start_directory: ~/Dev/active/pet-fullstack
+windows:
+  - window_name: frontend
+    layout: main-horizontal
+    options:
+      main-pane-height: 50%
+    start_directory: pet_frontend
+    panes:
+      - focus: true
+      - npm run test:watch
+      - npm start
+  - window_name: backend
+    start_directory: pet_backend
+    panes:
+      - echo "mvn spring-boot:run -Dspring-boot.run.profiles=local"
+  - window_name: containers
+    start_directory: pet_devops/Docker
+    panes:
+      - #podman-compose -f postgresql_db_local.yaml up -d && podman ps -a
+  - window_name: root
+    panes:
+      - codium .vscode/pet-fullstack.code-workspace

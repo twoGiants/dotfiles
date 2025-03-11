@@ -1,0 +1,10 @@
+session_name: playground
+windows:
+  - window_name: main
+    start_directory: ~/Dev/active/hyperledger-fabric/fabric-samples/test-network
+    panes:
+      - environment:
+          TEST_NETWORK_DIR: ~/Dev/active/hyperledger-fabric/fabric-samples/test-network
+        shell_command:
+          - tmux set-hook -g session-closed 'run-shell "if [ \"#{hook_session_name}\" = \"playground\" ]; then ~/Dev/active/hyperledger-fabric/fabric-samples/test-network/./network.sh down; else echo errorNetworkDown >> ~/tmux-session-log.txt; fi"'
+          - ./network.sh up
