@@ -111,10 +111,6 @@ export DISABLE_AUTO_TITLE='true'
 # starship
 eval "$(starship init zsh)"
 
-# tekton development
-#export KO_DOCKER_REPO='docker.io/sjakusch'
-export KO_DOCKER_REPO='kind.local'
-
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
