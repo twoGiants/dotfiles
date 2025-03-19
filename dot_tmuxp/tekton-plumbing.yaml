@@ -11,3 +11,7 @@ windows:
         focus: true
       - glol
       - codium -n .
+  - window_name: play
+    start_directory: ../../tekton-playground
+    panes:
+      - ll
