@@ -12,13 +12,12 @@ windows:
       - glol
       - codium -n .
   - window_name: play-pipe
+    start_directory: ../..
     layout: main-horizontal
     options:
       main-pane-height: 50%
     panes:
       - shell_command:
-          - ll
-        start_directory: ../../tekton-playground
+          - cd tekton-playground
       - shell_command:
-          - ll
-        start_directory: ../../tekton-pipeline
+          - cd tekton-pipeline
