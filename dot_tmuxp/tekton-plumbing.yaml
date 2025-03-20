@@ -11,7 +11,14 @@ windows:
         focus: true
       - glol
       - codium -n .
-  - window_name: play
-    start_directory: ../../tekton-playground
+  - window_name: play-pipe
+    layout: main-horizontal
+    options:
+      main-pane-height: 50%
     panes:
-      - ll
+      - shell_command:
+        start_directory: ../../tekton-playground
+        - ll
+      - shell_command:
+        start_directory: ../../tekton-pipeline
+        - ll
