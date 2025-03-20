@@ -17,8 +17,8 @@ windows:
       main-pane-height: 50%
     panes:
       - shell_command:
+          - ll
         start_directory: ../../tekton-playground
-        - ll
       - shell_command:
+          - ll
         start_directory: ../../tekton-pipeline
-        - ll
