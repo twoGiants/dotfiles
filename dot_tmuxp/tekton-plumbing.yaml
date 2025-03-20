@@ -20,4 +20,4 @@ windows:
       - shell_command:
           - cd tekton-playground
       - shell_command:
-          - cd tekton-pipeline
+          - cd forks/tekton-pipeline
