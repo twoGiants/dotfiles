@@ -1,5 +1,5 @@
-session_name: tekton-playground
-start_directory: ~/Dev/active/tekton/tekton-playground
+session_name: tekton-pipeline
+start_directory: ~/Dev/active/tekton/froks/tekton-pipeline
 environment:
   KO_DOCKER_REPO: kind.local
 windows:
@@ -9,8 +9,7 @@ windows:
       main-pane-height: 50%
     panes:
       - shell_command:
-          - tmux set-hook -g session-closed 'run-shell "if [ \"#{hook_session_name}\" = \"tekton-playground\" ]; then kind delete cluster -n tekton fi"'
-          - ./scripts/tk8.sh -s
+          - 
         focus: true
       - glol
       - codium -n .
