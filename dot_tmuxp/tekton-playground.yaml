@@ -1,7 +1,7 @@
 session_name: tekton-playground
 start_directory: ~/Dev/active/tekton/tekton-playground
 environment:
-  KO_DOCKER_REPO: kind.local
+  KO_DOCKER_REPO: localhost:5000 
 windows:
   - window_name: root
     layout: main-horizontal
