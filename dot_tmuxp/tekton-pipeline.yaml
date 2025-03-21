@@ -1,5 +1,5 @@
 session_name: tekton-pipeline
-start_directory: ~/Dev/active/tekton/froks/tekton-pipeline
+start_directory: ~/Dev/active/tekton/forks/tekton-pipeline
 environment:
   KO_DOCKER_REPO: kind.local
 windows:
