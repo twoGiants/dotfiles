@@ -10,7 +10,7 @@ windows:
     panes:
       - shell_command:
           - tmux set-hook -g session-closed 'run-shell "if [ \"#{hook_session_name}\" = \"tekton-playground\" ]; then kind delete cluster -n tekton fi"'
-          - ./scripts/tk8.sh -s
+          - ./cluster/cluster.sh -s
         focus: true
       - glol
       - codium -n .
