@@ -1,0 +1,15 @@
+session_name: tekton-pipeline
+start_directory: ~/Dev/active/tekton/forks/tekton-pipeline
+environment:
+  KO_DOCKER_REPO: localhost:5000 
+windows:
+  - window_name: root
+    layout: main-horizontal
+    options:
+      main-pane-height: 50%
+    panes:
+      - shell_command:
+          - 
+        focus: true
+      - glol
+      - codium -n .
