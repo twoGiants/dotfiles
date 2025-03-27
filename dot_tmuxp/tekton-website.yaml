@@ -1,4 +1,4 @@
-session_name: tekton-pipeline
+session_name: tekton-website
 start_directory: ~/Dev/active/tekton/forks/tekton-website
 windows:
   - window_name: root
