@@ -1,0 +1,36 @@
+{
+  "editor.defaultFormatter": "golang.go",
+  "git.autofetch": true,
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "gopls": {
+    "ui.semanticTokens": true,
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+    "--fast-only"
+  ],
+  "go.formatTool": "custom",
+  "go.alternateTools": {
+    "customFormatter": "golangci-lint"
+  },
+  "go.formatFlags": [
+    "fmt",
+    "--stdin"
+  ],
+  "editor.indentSize": "tabSize",
+  "redhat.telemetry.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.startupEditor": "none",
+}

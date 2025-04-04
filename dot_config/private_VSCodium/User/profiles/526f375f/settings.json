@@ -1,0 +1,14 @@
+{
+  "markyMarkdown.statsShowReadingTime": true,
+  "markyMarkdown.statsShowWords": true,
+  "markyMarkdown.statsShowLines": false,
+  "markyMarkdown.statsShowCharacters": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "markdown.validate.enabled": true,
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "workbench.startupEditor": "none",
+}

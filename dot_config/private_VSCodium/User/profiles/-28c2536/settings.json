@@ -1,0 +1,15 @@
+{
+  "git.autofetch": true,
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+}

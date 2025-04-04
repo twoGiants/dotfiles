@@ -1,0 +1,172 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+[Semicolon]",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "workbench.action.terminal.resizePaneDown",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "workbench.action.terminal.resizePaneUp",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+[BracketRight]",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "meta+m",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k ctrl+alt+s",
+    "command": "-git.stageSelectedRanges",
+    "when": "isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "ctrl+k ctrl+a",
+    "command": "git.stage"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.toggleEditorWidths"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "workbench.action.increaseViewSize",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "shift+f12",
+    "command": "-goToPreviousReference",
+    "when": "inReferenceSearchEditor || referenceSearchVisible"
+  },
+  {
+    "key": "ctrl+shift+9",
+    "command": "workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+8",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "ctrl+k alt+s",
+    "command": "git.stageChange"
+  },
+  {
+    "key": "ctrl+k alt+s",
+    "command": "git.stageSelectedRanges",
+    "when": "editorTextFocus || isInDiffEditor && !operationInProgress"
+  },
+  {
+    "key": "ctrl+meta+left",
+    "command": "cursorWordPartLeft"
+  },
+  {
+    "key": "ctrl+shift+meta+left",
+    "command": "cursorWordPartLeftSelect"
+  },
+  {
+    "key": "ctrl+meta+right",
+    "command": "cursorWordPartRight"
+  },
+  {
+    "key": "ctrl+shift+meta+right",
+    "command": "cursorWordPartRightSelect"
+  },
+  {
+    "key": "meta+down",
+    "command": "gotoNextPreviousMember.nextMember"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-gotoNextPreviousMember.nextMember"
+  },
+  {
+    "key": "meta+up",
+    "command": "gotoNextPreviousMember.previousMember"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "-gotoNextPreviousMember.previousMember"
+  },
+  {
+    "key": "ctrl+k ctrl+[Period]",
+    "command": "git.stageAll"
+  },
+  {
+    "key": "ctrl+k ctrl+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+k ctrl+t",
+    "command": "-workbench.action.selectTheme"
+  },
+  {
+    "key": "ctrl+k ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+[Comma]",
+    "command": "workbench.action.openSettingsJson"
+  },
+  {
+    "key": "ctrl+k ctrl+u",
+    "command": "-editor.action.removeCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "meta+u",
+    "command": "git.unstage"
+  },
+  {
+    "key": "f12",
+    "command": "goToNextReference",
+    "when": "inReferenceSearchEditor || referenceSearchVisible"
+  },
+  {
+    "key": "f12",
+    "command": "-goToNextReference",
+    "when": "inReferenceSearchEditor || referenceSearchVisible"
+  }
+]
