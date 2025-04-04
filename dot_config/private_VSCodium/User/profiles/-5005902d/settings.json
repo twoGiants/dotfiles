@@ -30,7 +30,6 @@
     "--stdin"
   ],
   "editor.indentSize": "tabSize",
-  "redhat.telemetry.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
 }
