@@ -166,5 +166,15 @@
     "key": "ctrl+shift+c",
     "command": "-workbench.action.terminal.openNativeConsole",
     "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "issue.copyGithubPermalink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+meta+l",
+    "command": "editor.toggleFold",
+    "when": "editorTextFocus && foldingEnabled"
   }
 ]
