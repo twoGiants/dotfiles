@@ -176,5 +176,9 @@
     "key": "ctrl+meta+l",
     "command": "editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "alt+meta+h",
+    "command": "git.viewHistory"
   }
 ]
