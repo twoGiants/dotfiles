@@ -22,13 +22,14 @@
     "--fast-only"
   ],
   "go.formatTool": "custom",
-  "go.alternateTools": {
-    "customFormatter": "golangci-lint"
-  },
-  "go.formatFlags": [
-    "fmt",
-    "--stdin"
-  ],
+  // Works only if the .golangci.yaml has the correct version
+  // "go.alternateTools": {
+  //   "customFormatter": "golangci-lint-v2"
+  // },
+  // "go.formatFlags": [
+  //   "fmt",
+  //   "--stdin"
+  // ],
   "editor.indentSize": "tabSize",
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
