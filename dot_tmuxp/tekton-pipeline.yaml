@@ -2,7 +2,6 @@ session_name: tekton-pipeline
 start_directory: ~/Dev/active/tekton/forks/tekton-pipeline
 environment:
   KO_DOCKER_REPO: localhost:5000
-  SYSTEM_NAMESPACE: tekton-pipelines
 windows:
   - window_name: root
     layout: main-horizontal
@@ -14,3 +13,8 @@ windows:
         focus: true
       - glol
       - codium -n .
+  - window_name: e2e
+    environment:
+      SYSTEM_NAMESPACE: tekton-pipelines
+    panes:
+      - echo $SYSTEM_NAMESPACE
