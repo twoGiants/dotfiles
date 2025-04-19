@@ -180,5 +180,9 @@
   {
     "key": "alt+meta+h",
     "command": "git.viewHistory"
+  },
+  {
+    "key": "ctrl+k ctrl+alt+backspace",
+    "command": "git.clean"
   }
 ]
