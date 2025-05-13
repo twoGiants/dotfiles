@@ -116,8 +116,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# go
-alias gciv2="golangci-lint-v2"
 
 # must be at the end of the rc file
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
