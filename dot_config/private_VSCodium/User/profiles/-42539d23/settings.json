@@ -18,7 +18,6 @@
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
   "editor.indentSize": "tabSize",
-  "redhat.telemetry.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
   "[yaml]": {
@@ -28,5 +27,7 @@
   "vs-tekton.pipelineRunNotifications": false,
   "vs-tekton.refResource": false,
   "vs-tekton.showLogsOnPipelineStart": false,
-  "githubPullRequests.pullBranch": "never",
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
 }

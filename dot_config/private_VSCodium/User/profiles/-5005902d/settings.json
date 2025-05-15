@@ -31,7 +31,6 @@
   //   "--stdin"
   // ],
   "editor.indentSize": "tabSize",
-  "editor.cursorSurroundingLines": 30,
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
 }
