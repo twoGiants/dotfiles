@@ -142,7 +142,7 @@
     "command": "-workbench.action.selectTheme"
   },
   {
-    "key": "ctrl+k ctrl+w",
+    "key": "ctrl+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
@@ -166,5 +166,14 @@
     "key": "ctrl+shift+c",
     "command": "-workbench.action.terminal.openNativeConsole",
     "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+g",
+    "command": "git.openChange"
+  },
+  {
+    "key": "ctrl+shift+meta+g",
+    "command": "git.viewChanges",
+    "when": "!operationInProgress"
   }
 ]

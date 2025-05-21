@@ -142,7 +142,7 @@
     "command": "-workbench.action.selectTheme"
   },
   {
-    "key": "ctrl+k ctrl+w",
+    "key": "ctrl+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
