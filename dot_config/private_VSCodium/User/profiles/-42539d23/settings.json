@@ -23,11 +23,10 @@
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "vs-tekton.pipelineRun": false,
-  "vs-tekton.pipelineRunNotifications": false,
-  "vs-tekton.refResource": false,
-  "vs-tekton.showLogsOnPipelineStart": false,
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
+  "github.copilot.enable": {
+    "*": false
+  },
 }
