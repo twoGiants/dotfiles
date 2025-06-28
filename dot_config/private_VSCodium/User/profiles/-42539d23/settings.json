@@ -26,7 +26,4 @@
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
-  "github.copilot.enable": {
-    "*": false
-  },
 }
