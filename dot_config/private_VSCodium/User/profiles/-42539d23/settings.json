@@ -17,7 +17,7 @@
   },
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
-  "go.buildTags": "e2e",
+  "go.buildTags": "e2e,examples,featureflags",
   "editor.indentSize": "tabSize",
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
