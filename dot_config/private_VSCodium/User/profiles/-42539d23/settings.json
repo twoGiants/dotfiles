@@ -1,30 +1,47 @@
 {
-  "editor.defaultFormatter": "golang.go",
   "git.autofetch": true,
   "[markdown]": {
     "editor.wordWrap": "on"
   },
-  "[go.mod]": {
-    "editor.defaultFormatter": "golang.go"
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "[go]": {
-    "editor.defaultFormatter": "golang.go"
-  },
-  "go.inlayHints.parameterNames": true,
-  "go.inlayHints.compositeLiteralFields": true,
   "gopls": {
     "ui.semanticTokens": true,
   },
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.compositeLiteralFields": true,
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
   "go.buildTags": "e2e,examples,featureflags",
   "editor.indentSize": "tabSize",
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "editor.defaultFormatter": "golang.go",
+  // ---------------------------------
+  // NOT working currently
+  // ---------------------------------
+  // "go.lintTool": "golangci-lint",
+  // "go.lintFlags": [
+  //   "--path-mode=abs",
+  //   "--fast-only"
+  // ],
+  // "go.formatTool": "custom",
+  // "go.alternateTools": {
+  //   "customFormatter": "golangci-lint"
+  // },
+  // "go.formatFlags": [
+  //   "fmt",
+  //   "--stdin"
+  // ],
+  // ---------------------------------
 }
