@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1717600573413,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1717600557319,
+          "path": "1. Projects/Job Vision Verwirklichung/Job Vision Verwirklichung, Plan.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1717600557319,
+          "path": "3. Resources/Bücher Reviews/Land the Tech Job You Love - Summary.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1717600557319,
+          "path": "4. Archive/Legacy Evernote Markdown Export/C. Resources/Bücher/_resources/Land_the_Tech_Job_You_Love_-_Andy_Lester.resources/Land the Tech Job You Love.pdf"
+        },
+        {
+          "type": "file",
+          "ctime": 1718015929506,
+          "path": "1. Projects/Job Vision Verwirklichung/Foundation/Master CV.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1719645367851,
+          "path": "1. Projects/Job Vision Verwirklichung/_resources/IBM CV DE Stanislav Jakuschevskij 31.06.2023.pdf",
+          "title": "IBM CV DE"
+        },
+        {
+          "type": "file",
+          "ctime": 1719645385779,
+          "path": "1. Projects/Job Vision Verwirklichung/_resources/IBM CV EN Stanislav Jakuschevskij 14.03.2023.pdf",
+          "title": "IBM CV EN"
+        },
+        {
+          "type": "file",
+          "ctime": 1720166961298,
+          "path": "1. Projects/Job Vision Verwirklichung/Minimaler Suchplan.md"
+        }
+      ],
+      "title": "Job Vision Verwiklichung"
+    },
+    {
+      "type": "group",
+      "ctime": 1718024594269,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1719645278202,
+          "path": "4. Archive/Time Management",
+          "title": "Time Management Archiv"
+        },
+        {
+          "type": "folder",
+          "ctime": 1719645248498,
+          "path": "2. Areas/Time Management"
+        },
+        {
+          "type": "folder",
+          "ctime": 1718024568932,
+          "path": "2. Areas/Inbox"
+        },
+        {
+          "type": "file",
+          "ctime": 1718015742137,
+          "path": "2. Areas/Time Management/Boards/Leben Board.md",
+          "title": "Leben Board"
+        }
+      ],
+      "title": "Day2Day"
+    }
+  ]
+}

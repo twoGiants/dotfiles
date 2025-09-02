@@ -1,0 +1,16 @@
+{
+  "promptDelete": true,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./_resources",
+  "showLineNumber": false,
+  "showUnsupportedFiles": true
+}

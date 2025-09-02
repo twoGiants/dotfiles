@@ -1,0 +1,297 @@
+{
+  "main": {
+    "id": "871b9776353f6291",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbea9d97d779dbb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e02fde12346afbed",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/Time Management/Plans/J 25 W 36 - Montag Vormittag - Weekly.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "J 25 W 36 - Montag Vormittag - Weekly"
+            }
+          }
+        ]
+      },
+      {
+        "id": "5dae86a849a0dd45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "653dee3aab3c3617",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Areas/Time Management/Boards/Red Hat Board.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Red Hat Board"
+            }
+          },
+          {
+            "id": "7de0fee7a329f255",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
+          },
+          {
+            "id": "2a22bf5900d2552b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63774d08f8b3cc72",
+    "type": "split",
+    "children": [
+      {
+        "id": "73fc0eee1f4f1478",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "488ccfcd589cb77b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b3e0c36cbfe47261",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "kubebuilder",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1cf42d4b2439a703",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.5
+  },
+  "right": {
+    "id": "4b550fbc1a4ae63d",
+    "type": "split",
+    "children": [
+      {
+        "id": "33617f5d24b13a26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8be639cac776b280",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. Areas/Time Management/Plans/J 25 W 13 - Montag Vormittag - Weekly.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for J 25 W 13 - Montag Vormittag - Weekly"
+            }
+          },
+          {
+            "id": "a6d9b0198410c719",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. Areas/Time Management/Plans/J 25 W 13 - Montag Vormittag - Weekly.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from J 25 W 13 - Montag Vormittag - Weekly"
+            }
+          },
+          {
+            "id": "f5d6a6175e0165b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. Areas/Time Management/Plans/J 25 W 13 - Montag Vormittag - Weekly.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of J 25 W 13 - Montag Vormittag - Weekly"
+            }
+          },
+          {
+            "id": "91d8dee674ee3b40",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "75df3bee0e2d520e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": true,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "653dee3aab3c3617",
+  "lastOpenFiles": [
+    "2. Areas/Time Management/Plans/J 25 W 36 - Montag Vormittag - Weekly.md",
+    "2. Areas/Time Management/Boards/Red Hat Board.md",
+    "1. Projects/Tekton/Tekton Done List.md",
+    "4. Archive/Time Management/Weekly/2025/J 25 W 31 - Montag Mittag - Weekly.md",
+    "3. Resources/Zukunft/Alternative Magazine.md",
+    "4. Archive/Time Management/Weekly/2025/J 25 W 32 - Montag Vormittag - Weekly.md",
+    "4. Archive/Time Management/Weekly/2025/J 25 W 33 - Dienstag Mittag - Weekly.md",
+    "4. Archive/Time Management/Weekly/2025/J 25 W 34 - Montag Vormittag - Weekly.md",
+    "2. Areas/Time Management/Boards/Leben Board.md",
+    "1. Projects/Job Vision Verwirklichung/Applications/Red Hat/Red Hat Stelle, Principal Software Engineer Serverless Knative.md",
+    "2. Areas/Time Management/Boards/Termin Board.md",
+    "4. Archive/Time Management/Weekly/2025/J 25 W 35 - Donnerstag Abend - Weekly.md",
+    "2. Areas/Time Management/Boards/Regelmäßiges.md",
+    "3. Resources/Deep Life Stack/Weekly Plan Template.md",
+    "4. Archive/IBM/IBM Beruf Board.md",
+    "2. Areas/Time Management/Plans/Quartalsplan J25Q4.md",
+    "1. Projects/Tekton/Kubebuilder, Practice, Learning.md",
+    "1. Projects/Red Hat",
+    "1. Projects/Job Vision Verwirklichung/Foundation/Stas Profilbild 2024 small.png",
+    "1. Projects/Job Vision Verwirklichung/Foundation/Screenshot From 2025-08-29 10-10-01.png",
+    "2. Areas/Time Management/Boards/Coding Board.md",
+    "1. Projects/Tekton/OSS Tekton.md",
+    "2. Areas/Reisen/Reisen Reviews Tipps.md",
+    "1. Projects/Job Vision Verwirklichung/Foundation/LinkedIn.md",
+    "1. Projects/Job Vision Verwirklichung/Foundation/Stas Profilbild 2024.jpg",
+    "3. Resources/Ernährung/Fleisch - Einkaufsliste Preisliste.md",
+    "2. Areas/Wohnen/_resources/Mistplatz Gasen Altstoffsammerzentrum Muellabfuhr-Sammeltermine-2025.pdf",
+    "3. Resources/Pass/Neuer Reisepass 2025.md",
+    "2. Areas/Reisen/Düsseldorf, Johann Tanja, 24.md",
+    "2. Areas/Reisen/Lisi und Paul Hochzeit 25.md",
+    "2. Areas/Reisen/Luka und Ana 25, Hochzeit.md",
+    "2. Areas/Inbox/Reisepass 2025 Scan Stanislav Jakuschevskij.pdf",
+    "2. Areas/Inbox/Reisepass 2025 Scan - all pages.pdf",
+    "2. Areas/Inbox/Reisepass 2025 Scan (1).pdf",
+    "1. Projects/Job Vision Verwirklichung/Applications/Cast.ai/cv-stanislav-jakuschevskij-cast-ai.pdf",
+    "1. Projects/Job Vision Verwirklichung/Applications/Ketryx/ketryx-cv-stanislav-jakuschevskij.pdf",
+    "1. Projects/Job Vision Verwirklichung/Applications/Red Hat/CV Stanislav Jakuschevskij - Principal Software Engineer.pdf",
+    "1. Projects/Job Vision Verwirklichung/Applications/apsa.at/apsa.at Senior Software Engineer 202504 CV Stanislav Jakuschevskij.pdf",
+    "1. Projects/Job Vision Verwirklichung/Applications/Docker/Docker Talent Community - Senior Software Engineer - Stanislav Jakuschevskij CV.pdf",
+    "2. Areas/Inbox/Dienstzeugniss IBM Tipps.png",
+    "1. Projects/Job Vision Verwirklichung/_resources/Gut Formulierungen für Berufserfahrung.jpeg",
+    "2. Areas/Inbox/hosteurope alle DNS Einträge.png",
+    "2. Areas/Inbox/Zauber der natürlichen Geburt.png",
+    "2. Areas/Wohnen/_resources/Taiwo Haushaltshilfe24.png",
+    "2. Areas/Inbox/Screenshot from 2025-05-19 19-41-13.png",
+    "2. Areas/Wohnen/_resources/Saskia Haushaltshilfe24.png",
+    "Untitled.canvas"
+  ]
+}
