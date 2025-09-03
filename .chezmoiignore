@@ -1,4 +1,4 @@
-{{- if ne .chezmoi.hostname "sjakusch-thinkpadp1gen7" }}
-~/Dropbox/*
-~/.config/VSCodium/*
+{{- if eq .chezmoi.hostname "sjakusch-thinkpadp1gen7" }}
+Dropbox/**
+.config/VSCodium/**
 {{- end }}
